@@ -5,7 +5,7 @@ require(taxize)
 require(validate)
 
 
-iris2 <- read.csv("dados_unidos.csv", sep = ";", header = T)
+iris2 <- read.csv("uniao.csv", sep = ";", header = T)
 iris2$X<-NULL
 
 lapply(iris2, unique)
