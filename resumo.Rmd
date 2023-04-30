@@ -1,0 +1,45 @@
+---
+title: "Resumo_Gundersen_et_al_2018"
+author: "Lorrana Diniz"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+  
+## On Reproducible AI: Towards Reproducible Research, Open Science, and Digital Scholarship in AI Publications
+
+### Gundersen, O. E., Gil, Y., & Aha, D. W. (2018). On reproducible AI: Towards reproducible research, open science, and digital scholarship in AI publications. AI magazine, 39(3), 56-68.
+
+##### A capacidade de outros pesquisadores replicarem experimentos dependem muito das informações fornecidas pelos autores quando o trabalho original foi publicado. Na **ciência da computação**, uma grande parte dos experimentos são totalmente conduzidos em computadores, tornando os experimentos mais simples de documentar. A maioria das pesquisas de inteligência artificial também se enquadra nessa categoria de experimentação computacional.O obetivo do artigo é idenificar esratégiaspara melhorar a documentação e disseminação de pesquisas de inteligência artificial para a reprodutibilidade de dados e apoio a ciência aberta. 
+
+##### **Como a pesquisa de inteligência artificial está atualmente documentada?**
+##### Gundersen e Kjensmo (2018) desenvolveu uma estrutura para analisar a reprodutividade baseado em 16 variáveis classificadas em:
+##### - **Método**:Explicação do método
+##### - **Dados**: Descrição dos dados
+##### - **Experimento**: Documentação da execução dos dados
+
+
+##### **Essas variáveis fornecem uma indicação de qualidade dos artigos para três diferentes graus de reprodutibilidade:**
+##### - **Repetibilidade**:Um método produz os mesmos resultados quando os mesmos dados são executados. 
+##### - **Replicabilidade**: Uma implementação alternativa do método produz os mesmos resultados quando os mesmos dados são executados. 
+##### - **Reprodutividade**: Uma implementação alternativa do método produz resultados consistentes quando dados diferentes são executados.
+
+##### **Melhores práticas e recomendações**
+##### As recomendações é Apoiar os princípios FAIR para tornar os dados localizáveis, acessíveis, interoperáveis e reutilizáveis.A implementação dessas recomendações requer espaço extra nas publicações. A sugestão é incluir o conteúdo adicional em apêndices que os revisores técnicos não serão obrigados a avaliar, mas podem verificar. Para publicações eletrônicas, não deve haver nenhuma limitação de espaço imposta para os apêndices.
+
+##### **Benefícios para Autores**
+##### - 1. Praticar ciência aberta e pesquisa reprodutível. 
+##### - 2. Crédito por todos os seus produtos de pesquisa (por meio de citações de software, conjuntos de dados e outros produtos). 
+##### - 3. AumentO Do número de citações de suas publicações.
+##### - 4. Aumento das chances de ser financiado.
+##### - 5. Extensão curricular com seções de dados, softwar, conjuntos de dados e códigos escritos. 
+##### - 6. Melhore o gerenciamento de seus recursos de pesquisa (por exemplo, para que seus novos alunos e outros possam localizar mais facilmente os materiais gerados por seus alunos anteriores).
+##### - 7. Permita a reprodução de seu trabalho (por exemplo, para que você e outros possam aproveitá-lo em novos estudos, mesmo que tenham sido realizados há muitos anos). 
+##### - 8. Abordar novos requisitos de patrocinadores e periódicos. Eles estão conduzindo firmemente a pesquisa para uma maior reprodutibilidade e ciência aberta. 
+##### - 9. Atrair estudantes transformadores. Eles se esforçam para uma metodologia de pesquisa rigorosa. 
+##### - 10. Demonstração de liderança.
+
